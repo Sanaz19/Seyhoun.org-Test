@@ -1,0 +1,91 @@
+*body, head {
+    padding: 0%;
+    margin: 0px;
+    background: white;
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35pt;
+    align-content: center;
+    height: auto;
+}
+
+body, html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0%;
+    max-width: 100%;
+    height: auto;  
+}
+  */
+  body a, html a {
+    text-decoration: none;
+  }
+  
+  header {
+    padding: 2em;
+  }
+ 
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper {
+    margin: 0 auto;
+    min-height: auto;
+    background: white;
+    overflow: hidden;
+}
+
+#content, #footer, #copyright, #header {
+    margin: 10px;
+    background: white;
+    /*min-height: 150px;*/
+}
+ 
+
+/*متن  و تصویر با هم */
+
+.container {
+    position:  absolute;
+}
+
+/* Bottom right text */
+
+.text-block {
+    position: absolute;
+    background-color: black;
+    color: white;
+    background-repeat: repeat;
+}
+/*
+tr, td, th {
+    padding-top: 0px;
+    background-color: transparent;
+    border: 0px;
+}
+
+p, form, tbody {
+    background: transparent;
+}
+*/
+ 
+.portfolioContainer{ 
+margin:0 auto; 
+overflow:hidden; 
+} 
+ .Portfolio-box{ 
+text-align:center; 
+margin-bottom:30px; 
+height:100%; 
+width:auto; 
+float:left; 
+padding:0; 
+max-width: 100% !important;
+height: auto;
+
+} 
+.Portfolio-box img{ 
+margin-bottom:25px; 
+}
+  
