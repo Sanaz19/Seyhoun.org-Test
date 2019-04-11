@@ -11,7 +11,7 @@ src: local('Savoye LET Plain'), url('Savoye LET Plain1.0.woff') format('woff');
 }
 
 header, nav {
-    text-align: center; /* -- کلید -- */
+    text-align: center; 
     background: white;
     margin: 20px 0;
     padding: 10px;
@@ -46,9 +46,7 @@ img {
       height: auto;   
 }
 
- /*این زوم برای گوشی می باشد 
-    یعنی رسپانسیو بودن صفحه نصبت به گوشی یا تب لت و یا هر دستگاه دیگری
-*/
+ 
 
  @viewport {
      zoom: 1.0;
@@ -164,7 +162,7 @@ img {
 
  html {
      font-family: "Lucida Sans", sans-serif;
-     /*فونت سایت*/
+   
  }
 
  .header {
@@ -207,7 +205,7 @@ img {
      font-size: 12px;
      padding: 15px;
  }
- /* فیلتر بلور کردن و کلیک */ 
+
  
 .image-with-caption {
       position: relative;
@@ -254,11 +252,8 @@ img {
 }
 
 .image-with-caption:hover .image {
-    filter: blur(5px);/* تارکردن تصویر */
+    filter: blur(5px);
 }
-/* اتمام فیاتر مردن */
-/******************************/
-/* css برای آلبوم اسلایدر*/
 
 * {box-sizing:border-box}
 
